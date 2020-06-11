@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tablas Estructuradas </title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css">
+</head>
+<body>
+    <div id="principal"> 
+        <div class="t1">
+            <table>
+                <caption> Pesos de personas </caption>
+                <TABLE BORDER>
+                    <TR>	<TD><TH ROWSPAN=2></TH>
+                        <TH COLSPAN=2>Media</TH></TD>
+                    </TR>
+                    <TR>	<TD><TH>Altura</TH><TH>Peso</TH></TD>
+                    </TR>
+                    <TR>	<TH ROWSPAN=2>Sexo</TH>
+                            <TH>Hombres</TH><TD>1.9</TD><TD>85</TD>
+                    </TR>
+                    <TR>	<TH>Mujeres</TH><TD>1.7</TD><TD>60</TD>
+                    </TR>
+            </table>
+        </div>
+
+        <div class="t2">
+            <table >
+                <caption> Horas Rentadas </caption>
+               <thead>
+                <tr>
+                    <th colspan="5"> Pc's 1 a 5 </th>
+                </tr>
+               </thead>
+                <tbody>
+                    <tr>
+                        <td> Computadora 1 </td>
+                        <td> Computadora 2 </td>
+                        <td> Computadora 3 </td>
+                        <td> Computadora 4 </td>
+                        <td> Computadora 5 </td>
+                    </tr>
+                    <tr>
+                        <td> 2 Horas </td>
+                        <td> 2 Horas </td>
+                        <td> 2 Horas </td>
+                        <td colspan="2" rowspan="3"> 12 Horas </td>
+                    </tr>
+                    <tr>
+                        <td> 2 Horas </td>
+                        <td colspan="2"> 4 Horas</td>
+                    </tr>
+                    <tr>
+                        <td> 2 Horas </td>
+                        <td rowspan="3" colspan="2"> 4 Horas </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="t3">
+            <table>
+                <caption> Canciones Escuchadas </caption>
+            <thead>
+                <tr>
+                    <th> Trap y Rap </th>
+                    <th> Musica Lofi </th>
+                    <th> Musica Electronica </th>
+                    <th> Rock </th>
+                    <th> Jazz </th>
+                </tr>
+            </thead>
+             <tbody>
+                <tr>
+                    <td rowspan="4"> 5 Horas </td>
+                    <td rowspan="4"> 6 Horas </td>
+                    <td colspan="2"> 6 y 7 Horas </td>
+                    <td> 2 Horas </td>
+                </tr>
+                <tr>
+                    <td> 2 Horas </td>
+                    <td rowspan="2"> 3 Horas </td>
+                    <td> 2 Horas </td>
+                </tr>
+                <tr>
+                    <td> 1 Hora </td>
+                    <td> 1 Hora </td>
+                </tr>
+                <tr>
+                    <td> 2 Horas </td>
+                    <td> 1 Hora </td>
+                    <td> 30 min </td>
+                </tr>
+              </tbody>
+          </table> 
+        </div>
+    </div>
+</body>
+</html>
